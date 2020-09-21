@@ -1,0 +1,28 @@
+{
+  "name": "lone-wolf-utils",
+  "version": "1.0.0",
+  "description": "command line utilities for Joe Dever's Lone Wolf Series of books",
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "be-there": "^1.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lw": "node -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraigPhillips/lone-wolf-utils.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CraigPhillips/lone-wolf-utils/issues"
+  },
+  "homepage": "https://github.com/CraigPhillips/lone-wolf-utils#readme"
+}
